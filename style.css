@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Signika');
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+
+body {
+  background-color: #2980B9;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: 'Francois One', sans-serif;
+  font-size: 3.8em;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3em;
+}
+
+.bg-color {
+  background-color: #2C3E50;
+}
+
+.navbar-brand {
+  padding-left: 2%;
+}
+
+a:link {
+  color: rgba(255,255,255,.8);
+}
+
+a:visited {
+  color: rgba(255,255,255,.8);
+}
+
+#social {
+  background-color: #3498DB;
+}
+
+.jumbotron {
+  /*background-color: #2980B9;*/
+  background-image: url("images/main.jpg");
+  background-size: cover;
+  display:flex;
+  align-items: center;
+  color: white;
+}
+
+.jumbotron img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.jumbotron.vertical-center {
+  margin-bottom: 0;
+}
+
+
+.vertical-center {
+  display:flex;
+  align-items: center;
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+.btnDiv {
+  width: 100%;
+  left: 0;
+  bottom: 20px;
+  position: absolute;
+}
+
+.social i {
+  padding: 20px;
+}
+
+.social i:hover {
+  color: #2C3E50;
+}
+
+#samples img {
+  padding: 15px;
+  border-radius: 15px;
+}
+
+/*.carousel-item img {
+  width: 100%;
+  height: 100vh;
+}
+
+.carousel-caption {
+    background: rgba(0,0,0,0.5);
+}
+
+.carousel-caption p {
+    font-size: 1.2em;
+}*/
+
+#about {
+  padding: 75px;
+  background-color: #3498DB;
+}
+
+.center-block {
+    margin: auto;
+    display: block;
+    padding-bottom: 50px;
+}
+
+#software {
+  padding-top: 60px;
+  background-color: #E76659;
+}
+
+.software_icons {
+  padding-bottom: 70px;
+}
+
+.software_icons i {
+  padding: 50px;
+  padding-bottom: 25px;
+}
+
+#skills h1 {
+ text-align: center;
+ padding-bottom: 20px;
+}
+
+#skills .row {
+ text-align: center;
+ padding-bottom: 20px;
+}
+
+#skills ul {
+  line-height: 40px;
+}
+
+#skills {
+  padding-top: 70px;
+  background-color: #2C3E50;
+}
+
+#software h1 {
+ text-align: center;
+ padding-bottom: 20px;
+}
+
+#software .row {
+ text-align: center;
+ padding-bottom: 20px;
+}
+
+#software ul {
+  line-height: 30px;
+}
+
+
+#samples {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  justify-content: space-around;;
+  padding: 75px;
+  margin:auto;
+  background-color: #E76659;
+}
+
+#samples h1 {
+  padding-bottom: 20px;
+}
+
+#footer {
+  background-color: #3498DB;
+  padding-top: 5%;
+  padding-bottom: 10px;
+}
+
+#contact-form {
+  margin-bottom: 8%;
+}
+
+#contact-header {
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
